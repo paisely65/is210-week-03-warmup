@@ -12,3 +12,13 @@
 """
 
 import task_12
+print task_12.FLOATVAL
+print task_12.DECVAL
+print task_12.FRACVAL
+print task_12.INTVAL
+task_12.DECVAL == task_12.FRACVAL
+FRAC_DEC_EQUAL = task_12.DECVAL == task_12.FRACVAL
+task_12.DECVAL != task_12.FLOATVAL
+DEC_FLOAT_INEQUAL = task_12.DECVAL != task_12.FLOATVAL
+print DEC_FLOAT_INEQUAL
+print FRAC_DEC_EQUAL
